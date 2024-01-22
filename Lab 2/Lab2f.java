@@ -1,11 +1,11 @@
 public class Lab2f {
     
-    private static int i=0;
+    private static int obj_count=0;
     public Lab2f(){
-        i++;
+        obj_count++;
     }
     public static int counter(){
-        return i;
+        return obj_count;
     }
     
     public static void main(String[] args) {
