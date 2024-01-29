@@ -17,7 +17,7 @@ public class Lab3a {
         System.out.print("Enter the height: ");
         int height= sc.nextInt();
         
-        System.out.println(b1.vol(len, wid, height));
+        System.out.println("Volume: "+b1.vol(len, wid, height));
         sc.close();
     }
 }
