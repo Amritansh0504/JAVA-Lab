@@ -36,11 +36,11 @@ public class Lab4d {
             p[i] = new Person();
             System.out.println("Enter the name for "+(i+1)+" user: ");
             p[i].name = sc.nextLine();
-            System.out.print("Enter the Aadhar no for user 1: ");
+            System.out.print("Enter the Aadhar no for user "+(i+1)+": ");
             p[i].aadhar_no = sc.nextInt();
-            System.out.print("Enter the Account number for user 1: ");
+            System.out.print("Enter the Account number for user "+(i+1)+": ");
             int a= sc.nextInt();
-            System.out.print("Enter the Balance for user 1: ");
+            System.out.print("Enter the Balance for user "+(i+1)+": ");
             int b = sc.nextInt();
             p[i].input(a, b);
             sc.nextLine();
@@ -48,7 +48,7 @@ public class Lab4d {
         }
 
         for(int i=0; i<3; i++){
-            System.out.println("Details for user 1: ");
+            System.out.println("Details for user "+(i+1)+": ");
             p[i].disp();
             System.out.println();
         }
