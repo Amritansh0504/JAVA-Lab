@@ -32,6 +32,7 @@ class WoodBox extends Box {
 }
 
 public class Lab4b{
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -14,6 +14,7 @@ class rectangle{
 }
 
 public class Lab3f {
+    @SuppressWarnings("unused")
     public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
     System.out.print("Enter the length of the rectangle: ");
