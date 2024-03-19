@@ -60,6 +60,7 @@ public class Lab5d {
         head.getDetails();
         head.getDeptDetails();
 
+        
         scanner.close();
     }
 }
